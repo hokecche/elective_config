@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    student:
+      path: /student/**
+      service-id: student
+    administrator:
+      path: /administrator/**
+      service-id: administrator
+    teacher:
+      path: /teacher/**
+      service-id: teacher
